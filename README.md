@@ -106,14 +106,14 @@ GET /api/users/alice123
 ### 4️⃣ Update a User
 - PUT /api/users/:id
 - Updates user details.
-####📤 Request Body
+#### 📤 Request Body
 ```
 {
   "name": "Alice Johnson",
   "email": "alice.j@example.com"
 }
 ```
-####📥 Response
+#### 📥 Response
 ```
 {
   "_id": "1234567890abcdef",
