@@ -13,16 +13,16 @@ A simple **User Management API** built with **Node.js, Express, and MongoDB** fo
 
 ## 🛠️ Setup Instructions
 
-### **1️⃣ Clone the Repository**
+### 1️⃣ Clone the Repository**
 ```sh
 git clone https://github.com/yourusername/user-management-api.git
 cd user-management-api
 ```
 
-### **2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 `npm install`
 
-### **3️⃣ Create a .env File
+### 3️⃣ Create a .env File
 ```
 MONGO_URI=mongodb+srv://yourusername:yourpassword@yourcluster.mongodb.net/yourdbname?retryWrites=true&w=majority
 PORT=5000
@@ -47,7 +47,7 @@ By default, the server runs on http://localhost:5000
   "username": "alice123"
 }
 ```
-####📥 Response
+#### 📥 Response
 ```
 {
   "_id": "1234567890abcdef",
